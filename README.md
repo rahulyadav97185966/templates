@@ -1,0 +1,2 @@
+# templates
+templates in openshift
