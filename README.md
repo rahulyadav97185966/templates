@@ -17,7 +17,7 @@ Commands to create templates
 12) oc create -f gogstmp.yml -n openshift : check if the image is find in console or not
 13) Now create a Project in console (for example : mypro)
 14) Now in command line type  #oc create -f gogstmp.yml -n mypro
-15) now to goto console and goto mypro
+15) now to goto console and goto mypro (console login and password is admin)
 16) Now search in catlog for gogs
 17) Now create it adn check the status as running pods.
 18) check the pods are running or not
@@ -26,11 +26,11 @@ Commands to create templates
 21) oc get route -n mypro
 22) now paste link in address bar 
 23) and now get the svc of postgresql
-24) #oc get svc :: copy the svc and port in the given field
+24) #oc get svc :: copy the svc and port in the given field (postgresql ip and port for example 142.25.1.2:5432)
 25) now describe the deployment config 
 26) oc describe dc postgresql -n mypro
 27) put user , password and link in it
-28 ) paste the link which we are getting using  route
+28 ) paste the link which we are getting using route.
 
 
 
